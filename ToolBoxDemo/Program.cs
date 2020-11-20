@@ -32,6 +32,8 @@ namespace ToolBoxDemo
             Console.ReadLine();
 
             
+            //Functions are methods written outside of a custom class
+            //Methods are functions written inside of a custom class
 
 
             //Functions below this line
@@ -50,12 +52,12 @@ namespace ToolBoxDemo
             {
                 KeyToContinue();
                 ClearConsole();
+                Console.WriteLine("Congratulations! You cleared the program, now hit ENTER to close the console!");
+                Console.ReadLine();
             } 
 
         }
 
-            //Functions are methods written outside of a custom class
-            //Methods are functions written inside of a custom class
 
 
 
